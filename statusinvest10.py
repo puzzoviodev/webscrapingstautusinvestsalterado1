@@ -17,7 +17,7 @@ import warnings
 # define selenium webdriver options
 options = webdriver.ChromeOptions()
 
-# create selenium webdriver instance
+# create selenium webdriver instancee
 driver = webdriver.Chrome(options=options)
 
 #silvio
