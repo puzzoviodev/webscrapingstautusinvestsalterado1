@@ -20,7 +20,7 @@ options = webdriver.ChromeOptions()
 # create selenium webdriver instancee
 driver = webdriver.Chrome(options=options)
 
-#silvio
+#silvio 2
 wbsaida = openpyxl.Workbook()
 
 #Silvio inicio
@@ -147,6 +147,7 @@ def get_stock_soup(stock):
 
     # access the stock url
     driver.get(f'https://statusinvest.com.br/acoes/{stock}')
+    #driver.get(f'https://statusinvest.com.br/acoes/eua/{stock}')
 
     # get html from stock
     html = driver.find_element(By.ID, 'main-2').get_attribute('innerHTML')
